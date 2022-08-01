@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JordanShoes</title>
+
+  <link rel="preload" href="./css/style.css" as="style">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <p class="discount">Ganhe R$ 10,00 de desconto no frete</p>
+    <h1 class="title">JordanShoes</h1>
+  </header>
+
+  <main>
+    <section aria-label="Introduction" class="intro">
+      <div class="intro-bg"></div>
+      <div class="intro-desc container">
+        <h2 class="subtitle">A melhor loja de Jordan</h2>
+        <p class="desc">O tênis Jordan é fruto de uma velha e forte<br>parceria entre a Nike e o jogador Michael Jordan.</p>
+      </div>
+    </section>
+
+    <section aria-label="Highlights" class="highlights container">
+      <h2>Destaques</h2>
+      <p>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </p>
+
+      <ul class="products">
+        <li>
+          <a href=""><img src="./img/1.png" alt="JordanShoes na cor verde e verde claro com cadarço rosa e marca em preto" width="250" height="150"></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/2.png" alt="JordanShoes na cor lilás e branco com cadarço branco e marca em lilás" width="250" height="150"></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/3.png" alt="JordanShoes na cor branco com cadarço branco e marca em roxo" width="250" height="150"></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/4.png" alt="JordanShoes na cor cinza e branco com cadarço preto e marca em preto" width="250" height="150"></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/5.png" alt="JordanShoes na cor preto, branco e vermelho com cadarço branco e marca em branco" width="250" height="150"></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/6.png" alt="JordanShoes na cor branco e laranja com cadarço branco e marca em branco" width="250" height="150"></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/7.png" alt="JordanShoes na cor cinza claro e branco com cadarço branco e marca em camuflado claro" width="250" height="150"></a>
+        </li>
+        <li>
+          <a href=""><img src="./img/8.png" alt="JordanShoes na cor preto e branco com cadarço preto e marca em preto" width="250" height="150"></a>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <script>
+    const sr = ScrollReveal({
+      origin: 'top',
+      distance: '50px',
+      duration: 2000
+    });
+
+    ScrollReveal().reveal('.discount', { delay: 200 });
+    ScrollReveal().reveal('.title', { delay: 400 });
+    ScrollReveal().reveal('.intro-bg', { delay: 600 });
+    ScrollReveal().reveal('.subtitle', { delay: 800 });
+    ScrollReveal().reveal('.desc', { delay: 1000 });
+    ScrollReveal().reveal('.highlights', { delay: 1200 });
+  </script>
+</body>
+
+</html>

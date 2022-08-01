@@ -5,7 +5,7 @@ This project was prepared by [Iuri Code](https://www.instagram.com/iuricode/) an
 
 The project consists of a challenge created by him, to practice the front-end concepts.
 
-[Access the website here](https://jhonnathan-challenge2-codelandia.netlify.app/)
+[Access the website here](https://jhonnathan-jordanshoes.netlify.app)
 ## Demo
 
 ![JordanShoes](https://user-images.githubusercontent.com/82620787/171305813-ef052e7e-bdc6-4a51-9846-8e3570ad1da7.png)

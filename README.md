@@ -1,5 +1,5 @@
 
-# Challenge 2 | Codelandia
+# JordanShoes | Challenge 02 - Codelandia
 
 This project was prepared by [Iuri Code](https://www.instagram.com/iuricode/) and distributed on their Discord channel.
 
@@ -24,7 +24,7 @@ Website adapted for mobile. HTML was used in the structure and CSS in the stylin
 
 ```bash
     # Clone the project
-    $ git clone https://github.com/jhonnathandc/codelandia/tree/main/challenge_2
+    $ git clone https://github.com/jhonnathandc/jordanshoes-codelandia
     
     # Go into the repository
 

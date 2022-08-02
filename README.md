@@ -40,7 +40,7 @@ Site adaptado para mobile. Foi usado HTML na estrutura e CSS no estilo. JavaScri
 
 - [Iuri Code Github](https://github.com/iuricode)
 
-## License
+## Licença
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
